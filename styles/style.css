@@ -10,8 +10,11 @@ body {
   background-color: black;
   font-family: 'Excon', sans-serif;
   color: white;
-  line-height: .05rem;
+  margin: 0;
+  padding: 0;
+  cursor: crosshair;
 }
+
 
 .content__wrapper {
   height: 99vh;
@@ -30,6 +33,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .intro__title__sub {
@@ -39,11 +44,22 @@ body {
 
 .sub__title1, .sub__title2 {
   font-size: 1rem;
-  color: mediumslateblue;
+  color: rgb(157, 139, 255);
   text-align: left;
 }
 
 .sub__title2 {
   font-size: 0.80rem;
-  color: violet;
+  position: fixed;
+  pointer-events: none;
+}
+
+
+@media (width <= 768px) {
+  .intro {
+    width: 50%;
+  }
+  .sub__title2 {
+    position: relative;
+  }
 }
