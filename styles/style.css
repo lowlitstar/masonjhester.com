@@ -1,0 +1,49 @@
+/* temporary styles */
+
+/* div {
+  border: 1px dashed red;
+} */
+
+/* to be removed later */
+
+body {
+  background-color: black;
+  font-family: 'Excon', sans-serif;
+  color: white;
+  line-height: .05rem;
+}
+
+.content__wrapper {
+  height: 99vh;
+  width: 100%;
+}
+
+.landing__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.intro__title__sub {
+  font-size: 0.60rem;
+  color: violet;
+}
+
+.sub__title1, .sub__title2 {
+  font-size: 1rem;
+  color: mediumslateblue;
+  text-align: left;
+}
+
+.sub__title2 {
+  font-size: 0.80rem;
+  color: violet;
+}
