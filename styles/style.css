@@ -62,24 +62,8 @@ body {
   width: 40%;
 }
 
-.featured-img-alt {
-  position: absolute;
-  left: 15rem;
-  width: 40%;
-}
-
-.featured-img-alt-2 {
-  position: absolute;
-  top: 16rem;
-  right: 5rem;
-  width: 40%;
-}
-
 @media (width <= 768px) {
   .intro {
     width: 80%;
-  }
-  .sub__title2 {
-    position: relative;
   }
 }
