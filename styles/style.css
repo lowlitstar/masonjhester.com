@@ -12,7 +12,6 @@ body {
   color: white;
   margin: 0;
   padding: 0;
-  cursor: crosshair;
 }
 
 
@@ -21,39 +20,60 @@ body {
   width: 100%;
 }
 
-.landing__page {
+.site {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 100%;
+  position: relative;
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin-top: 0;
-  margin-bottom: 0;
+.intro__title {
+  margin-top: 20%;
+  width: 20rem;
+  position: absolute;
+  left: 5rem;
 }
 
-.intro__title__sub {
-  font-size: 0.60rem;
-  color: violet;
+.intro__header {
+  font-size: 1.50rem;
 }
 
 .sub__title1, .sub__title2 {
-  font-size: 1rem;
+  font-size: 0.90rem;
   color: rgb(157, 139, 255);
   text-align: left;
+  margin-bottom: -0.25rem;
 }
 
 .sub__title2 {
+  margin-top: 1rem;
   font-size: 0.80rem;
-  position: fixed;
-  pointer-events: none;
+} 
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
 }
 
+.featured-img {
+  position: absolute;
+  right: 20rem;
+  width: 40%;
+}
+
+.featured-img-alt {
+  position: absolute;
+  left: 15rem;
+  width: 40%;
+}
+
+.featured-img-alt-2 {
+  position: absolute;
+  top: 16rem;
+  right: 5rem;
+  width: 40%;
+}
 
 @media (width <= 768px) {
   .intro {
