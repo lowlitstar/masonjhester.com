@@ -19,12 +19,11 @@ html, body {
 }
 
 .piece-text {
-  font-family: m-sketch, sans-serif;
-  font-size: 1.3rem;
-  text-transform: uppercase;
+  font-family: m-sketch-ii, sans-serif;
+  font-size: 1.75rem;
   letter-spacing: 0.08rem;
   word-spacing: 0.4rem;
-  padding-left: 0.5rem;
+  padding-left: 5rem;
   text-shadow: 
     0.10rem 0.10rem 0.90rem #2200ff,
     -0.09rem -0.09rem 0 #ff0000,

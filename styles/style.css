@@ -31,13 +31,22 @@ body {
 }
 
 .intro-header {
-  font-size: 1.50rem;
+  font-size: 4rem;
 }
 
 .sub-title1, .sub-title2 {
-  font-size: 0.90rem;
-  color: rgb(157, 139, 255);
+  margin-top: -2rem;
+  font-family: m-sketch-ii, sans-serif;
+  font-size: 1.35rem;
+  text-transform: uppercase;
+  color: rgb(137, 230, 235);
   margin-bottom: -0.25rem;
+}
+
+.sub-title1 a {
+  font-family: m-sketch, sans-serif;
+  color: magenta;
+  text-decoration: none;
 }
 
 .sub-title2 {

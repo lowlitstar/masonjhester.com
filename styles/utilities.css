@@ -1,8 +1,16 @@
 
 @font-face {
   font-family: 'm-sketch';
-  src: url('/fonts/m-sketch.woff2') format('woff2'),
-       url('/fonts/m-sketch.woff') format('woff');
+  src: url('/fonts//m-sketch-i/m-sketch.woff2') format('woff2'),
+       url('/fonts/m-sketch-i/m-sketch.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'm-sketch-ii';
+  src: url('/fonts/m-sketch-ii/m-sketch-ii.woff2') format('woff2'),
+       url('/fonts/m-sketch-ii/m-sketch-ii.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
