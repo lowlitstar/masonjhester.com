@@ -6,7 +6,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        chaos: resolve(__dirname, 'p/chaos.html'),
+        chaos: resolve(__dirname, 'chaos.html'),
       },
     },
   },
