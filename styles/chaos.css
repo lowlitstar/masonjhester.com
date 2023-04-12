@@ -59,7 +59,7 @@ html, body {
   }
   .piece-wrapper {
     position: absolute;
-    top: 5rem;
+    top: 12.5rem;
   }
   .piece {
     flex-direction: column;
