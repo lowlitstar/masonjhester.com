@@ -1,4 +1,4 @@
-
+/* @import url('utilities.css'); */
 
 .piece {
   display: flex;
@@ -7,17 +7,27 @@
 }
 
 .piece-text {
+  font-family: m-sketch, sans-serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  word-spacing: 0.4rem;
   display: flex;
   flex-direction: column;
+  padding-left: 5rem;
+  text-shadow: 
+    0.10rem 0.10rem 0.90rem #2200ff,
+    -0.09rem -0.09rem 0 #ff0000,
+    0.10rem -0.10rem 0.60rem #ff9900
+  ;
 }
 
 .chaos {
   height: 60rem;
 }
 
-.chaos-poem {
-  height: 40rem;
-  transform: rotate(-0.25deg);
+.poem-indent {
+  margin-left: 2rem;
 }
 
 @media (width <= 1000px) {
@@ -26,9 +36,5 @@
   }
   .chaos {
     height: 40rem;
-
-  }
-  .chaos-poem {
-    height: 22.5rem;
   }
 }

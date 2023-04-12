@@ -5,12 +5,16 @@
 div {
   border: 1px dashed red;
 } 
-*/
+/*
 /* to be removed later */
 
 
+html {
+  height: 100%;
+}
 
 body {
+  height: 100%;
   background-color: black;
   font-family: 'Excon', sans-serif;
   color: white;
@@ -19,13 +23,11 @@ body {
 }
 
 .intro {
-  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40rem;
+  width: 17.5%;
   height: 100%;
-  padding-left: 20rem;
 }
 
 .intro-header {
@@ -45,58 +47,61 @@ body {
 
 .featured {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
+  width: 50%;
+  height: 100%;
+}
+
+.featured-img-container {
   position: relative;
 }
 
 .featured-img {
-  position: absolute;
-  top: 0;
-  right: 30rem;
-  height: 60rem;
+  height: 50rem;
 }
 
 .featured-text {
+  font-family: m-sketch;
   position: absolute;
-  top: 0;
-  right: 32.5rem;
-  font-size: 0.70rem;
-  z-index: 1;
-}
-
-@media (width <= 1700px) {
-  .featured-img {
-    right: 5rem;
-  }
-  .featured-text {
-    right: 8rem;
-  }
+  left: 1.5rem;
+  top: -1rem;
+  letter-spacing: 0.04rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  word-spacing: 0.25rem;
 }
 
 @media (width <= 1300px) {
-  .featured {
+  .featured-img {
+    height: 40rem;
+  }
+}
+
+@media (width <= 900px) {
+  .page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .intro {
     position: relative;
-    width: 100%;
-    height: 20rem;
-    padding-left: 0;
-    text-align: center;
+    width: 27.5rem;
+    padding-left: 5rem;
+  }
+  .intro-header {
+    margin-top: 20rem;
+  }
+  .featured {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   .featured-img {
-    right: 0;
-    height: 40rem;
-    position: relative;
+    height: auto;
+    width: 20rem;
+    margin-bottom: 5rem;
   }
   .featured-text {
-    right: 0;
-    position: relative;
-    margin-bottom: 0px;
+    top: -1.5rem;
   }
 }
