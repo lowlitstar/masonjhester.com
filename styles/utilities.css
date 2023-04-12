@@ -1,25 +1,38 @@
 
+@font-face {
+  font-family: 'm-sketch';
+  src: url('/fonts/m-sketch.woff2') format('woff2'),
+       url('/fonts/m-sketch.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .page-container {
   position: relative;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 /* backbutton */
 
 .back-button {
-  padding: 0.70rem 1rem;
+  font-family: 'Excon', sans-serif;
+  padding: 0.70rem 0.10rem;
   background-color: #ffffff03;
   border: none;
   border-radius: 5px;;
   cursor: pointer;
-  width: 5rem
+  width: 2rem;
 }
 
 .back-button-text {
   font-size: 0.8rem;
   text-decoration: none;
-  color: #ffffff;
+  color: #ff5500;
 }
 
 /* /backbutton /*/
