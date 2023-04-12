@@ -35,7 +35,8 @@
     margin-top: 30rem;
   }
   .piece-text {
-    font-size: 0.90rem;
+    width: 25rem;
+    font-size: 0.725rem;
     padding-left: 1rem;
     margin-bottom: 10rem;
   }
