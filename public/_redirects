@@ -1,1 +1,1 @@
-/p/:slug /:slug.html 200
+/p/:slug.html /:slug 200
