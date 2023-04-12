@@ -55,16 +55,25 @@ body {
 .featured-img {
   position: absolute;
   top: 0;
-  right: 10rem;
+  right: 30rem;
   height: 60rem;
 }
 
 .featured-text {
   position: absolute;
   top: 0;
-  right: 11.5rem;
+  right: 32.5rem;
   font-size: 0.70rem;
   z-index: 1;
+}
+
+@media (width <= 1700px) {
+  .featured-img {
+    right: 5rem;
+  }
+  .featured-text {
+    right: 8rem;
+  }
 }
 
 @media (width <= 1300px) {
