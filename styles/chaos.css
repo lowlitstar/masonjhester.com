@@ -24,6 +24,7 @@ html, body {
   text-transform: uppercase;
   letter-spacing: 0.08rem;
   word-spacing: 0.4rem;
+  padding-left: 0.5rem;
   text-shadow: 
     0.10rem 0.10rem 0.90rem #2200ff,
     -0.09rem -0.09rem 0 #ff0000,
@@ -39,33 +40,48 @@ html, body {
   margin-left: 1.5rem;
 }
 
-@media (width <= 1000px) {
+@media (width <= 1300px) {
+ .piece-text {
+    font-size: 0.8rem;
+    word-spacing: 0.3rem;
+ }
+ .chaos {
+   height: 35rem;
+ }
+}
+
+@media (width <= 675px) {
   .page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 99vh
+  }
+  .piece-wrapper {
+    position: absolute;
+    top: 5rem;
   }
   .piece {
     flex-direction: column;
-    width: 22.5rem;
     margin-bottom: 2rem;
   }
   .piece-text {
-    width: 22.5rem;
-    font-size: 0.5rem;
-    padding-left: 1rem;
+    font-size: 0.7rem;
     margin-bottom: 10rem;
+    word-spacing: 0.20rem;
+    padding-left: 0;
     text-shadow: 
-      0.05rem 0.05rem 0.90rem #2200ff,
-      -0.05rem -0.05rem 0 #ff0000,
-      0.05rem -0.05rem 0.60rem #ff9900
+      0.02rem 0.02rem 0.90rem #2200ff,
+      -0.02rem -0.02rem 0 #ff0000,
+      0.02rem -0.02rem 0.60rem #ff9900
   }
   .poem-indent {
-    margin-left: 1rem;
+    margin-left: 0.7rem;
   }
   .chaos {
     height: auto;
-    width: 22.5rem;
+    width: 80%;
+    margin: auto;
     margin-bottom: 2rem;
   }
 }
