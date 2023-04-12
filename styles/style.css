@@ -83,25 +83,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 99vh;
   }
   .intro {
-    position: relative;
-    width: 27.5rem;
-    padding-left: 5rem;
+    width: 60%;
   }
   .intro-header {
-    margin-top: 20rem;
+    margin-top: 12.5rem;
   }
   .featured {
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
   .featured-img {
-    height: auto;
-    width: 20rem;
+    height: 25rem;
     margin-bottom: 5rem;
   }
   .featured-text {
+    font-size: 0.8rem;
     top: -1.5rem;
+    left: 0.5rem;
   }
 }
