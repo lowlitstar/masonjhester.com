@@ -1,0 +1,25 @@
+
+.page-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* backbutton */
+
+.back-button {
+  padding: 0.70rem 1rem;
+  background-color: #ffffff03;
+  border: none;
+  border-radius: 5px;;
+  cursor: pointer;
+  width: 5rem
+}
+
+.back-button-text {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* /backbutton /*/
