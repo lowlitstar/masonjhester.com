@@ -1,13 +1,34 @@
-.featured-img-alt {
-  position: absolute;
-  left: 15rem;
-  width: 40%;
+
+
+.piece {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.featured-img-alt-2 {
-  position: absolute;
-  top: 16rem;
-  right: 5rem;
-  width: 40%;
+.piece-text {
+  display: flex;
+  flex-direction: column;
 }
 
+.chaos {
+  height: 60rem;
+}
+
+.chaos-poem {
+  height: 40rem;
+  transform: rotate(-0.25deg);
+}
+
+@media (width <= 1000px) {
+  .piece {
+    flex-direction: column;
+  }
+  .chaos {
+    height: 40rem;
+
+  }
+  .chaos-poem {
+    height: 22.5rem;
+  }
+}
