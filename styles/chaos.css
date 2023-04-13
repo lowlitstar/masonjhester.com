@@ -35,22 +35,23 @@ html, body {
   user-select: none;
 }
 
+.line {
+  cursor: crosshair; 
+}
+
 .line span {
-  cursor: pointer;
   transition: text-shadow 0.40s ease-in-out,
               filter 0.5s ease-in-out;
 }
 .line span:hover {
-  filter: brightness(200%);
+  color: rgb(255, 191, 81);
+  text-shadow: 0.10rem 0.10rem 0.80rem #ff0000,
+               -0.09rem -0.09rem 0.40rem #ff6600,
+               0 0 2rem #ffffff;
+  filter: brightness(150%), saturate(150%);
 }
 .line span:active {
-  text-shadow: 0.10rem 0.10rem 2rem #b7acff,
-              -0.10rem -0.10rem 0.5rem #0055ff,
-              0.10rem -0.10rem 0.60rem #fd0000;
-  filter: saturation(200%);
-}
-.line span:active {
-  cursor: grabbing;
+  cursor: none;
 }
 
 .poem-indent {
