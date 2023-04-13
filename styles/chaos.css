@@ -44,7 +44,7 @@ html, body {
               filter 0.5s ease-in-out;
 }
 .line span:hover {
-  color: rgb(255, 191, 81);
+  color: rgb(255, 81, 81);
   text-shadow: 0.10rem 0.10rem 0.80rem #ff0000,
                -0.09rem -0.09rem 0.40rem #ff6600,
                0 0 2rem #ffffff;
