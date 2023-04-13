@@ -15,6 +15,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'm-sketch-iii';
+  src: url('/fonts/m-sketch-iii/m-sketch-iii.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* colors */
 :root {
   --white: #ffffff; --white-opacity25: #ffffff40; --white-opacity50: #ffffff80; --white-opacity75: #ffffffc0;
