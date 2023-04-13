@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'm-sketch';
-  src: url('/fonts//m-sketch-i/m-sketch.woff2') format('woff2'),
+  src: url('/fonts/m-sketch-i/m-sketch.woff2') format('woff2'),
        url('/fonts/m-sketch-i/m-sketch.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -13,6 +13,37 @@
        url('/fonts/m-sketch-ii/m-sketch-ii.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+/* colors */
+:root {
+  --white: #ffffff; --white-opacity25: #ffffff40; --white-opacity50: #ffffff80; --white-opacity75: #ffffffc0;
+  --black: #000000; --black-opacity25: #00000040; --black-opacity50: #00000080; --black-opacity75: #000000c0;
+  --red: #ff0000; --red-opacity25: #ff000040; --red-opacity50: #ff000080; --red-opacity75: #ff0000c0;
+  --green: #3fe955; --green-opacity25: #3fe95540; --green-opacity50: #3fe95580; --green-opacity75: #3fe955c0;
+  --blue: #0000ff; --blue-opacity25: #0000ff40; --blue-opacity50: #0000ff80; --blue-opacity75: #0000ffc0;
+  --yellow: #ffff00; --yellow-opacity25: #ffff0040; --yellow-opacity50: #ffff0080; --yellow-opacity75: #ffff00c0;
+  --orange: #ff5500; --orange-opacity25: #ff550040; --orange-opacity50: #ff550080; --orange-opacity75: #ff5500c0;
+  --purple: #ff00ff; --purple-opacity25: #ff00ff40; --purple-opacity50: #ff00ff80; --purple-opacity75: #ff00ffc0;
+  --cyan: #00ffff; --cyan-opacity25: #00ffff40; --cyan-opacity50: #00ffff80; --cyan-opacity75: #00ffffc0;
+  --magenta: #ff00ff; --magenta-opacity25: #ff00ff40; --magenta-opacity50: #ff00ff80; --magenta-opacity75: #ff00ffc0;
+  --gray: #808080; --gray-opacity25: #80808040; --gray-opacity50: #80808080; --gray-opacity75: #808080c0;
+  --silver: #c0c0c0; --silver-opacity25: #c0c0c040; --silver-opacity50: #c0c0c080; --silver-opacity75: #c0c0c0c0;
+}
+
+/* /colors */
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  font-family: 'Excon', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .page-container {

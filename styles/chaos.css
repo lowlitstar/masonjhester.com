@@ -2,6 +2,11 @@
 
 html, body {
   height: 100%;
+  width: 100%;
+}
+
+.page-container {
+  cursor: crosshair;
 }
 
 .piece {
@@ -24,19 +29,38 @@ html, body {
   letter-spacing: 0.08rem;
   word-spacing: 0.4rem;
   padding-left: 5rem;
-  text-shadow: 
-    0.10rem 0.10rem 0.90rem #2200ff,
-    -0.09rem -0.09rem 0 #ff0000,
-    0.10rem -0.10rem 0.60rem #ff9900
-  ;
+  text-shadow: 0.10rem 0.10rem 0.90rem #2200ff,
+              -0.09rem -0.09rem 0 #ff0000,
+              0.10rem -0.10rem 0.60rem #ff9900;
+  text-transform: uppercase;
+  user-select: none;
 }
 
-.chaos {
-  height: 50rem;
+.line span {
+  cursor: pointer;
+  transition: text-shadow 0.40s ease-in-out,
+              filter 0.5s ease-in-out;
+}
+.line span:hover {
+  filter: brightness(200%);
+}
+.line span:active {
+  text-shadow: 0.10rem 0.10rem 2rem #b7acff,
+              -0.10rem -0.10rem 0.5rem #0055ff,
+              0.10rem -0.10rem 0.60rem #fd0000;
+  filter: saturation(200%);
+}
+.line span:active {
+  cursor: grabbing;
 }
 
 .poem-indent {
   margin-left: 1.5rem;
+}
+
+
+.chaos {
+  height: 50rem;
 }
 
 @media (width <= 1300px) {
@@ -69,10 +93,9 @@ html, body {
     margin-bottom: 10rem;
     word-spacing: 0.20rem;
     padding-left: 0;
-    text-shadow: 
-      0.02rem 0.02rem 0.90rem #2200ff,
-      -0.02rem -0.02rem 0 #ff0000,
-      0.02rem -0.02rem 0.60rem #ff9900
+    text-shadow: 0.02rem 0.02rem 0.90rem #2200ff,
+                -0.02rem -0.02rem 0 #ff0000,
+                0.02rem -0.02rem 0.60rem #ff9900
   }
   .poem-indent {
     margin-left: 0.7rem;

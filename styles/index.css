@@ -1,53 +1,63 @@
 @import url('utilities.css');
 
 /* temporary styles */
-/*
+/*  
 div {
   border: 1px dashed red;
 } 
-*/
+*/  
 /* to be removed later */
 
-
-html {
+html, body {
   height: 100%;
-}
-
-body {
-  height: 100%;
-  background-color: black;
-  font-family: 'Excon', sans-serif;
-  color: white;
-  margin: 0;
-  padding: 0;
+  width: 100%;
 }
 
 .intro {
+  border-left: solid var(--white-opacity50) 1px;
+  border-right: solid var(--white-opacity50) 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 17.5%;
+  min-width: 19rem;
   height: 100%;
+  padding: 0 0.5rem;
 }
 
 .intro-header {
-  font-size: 4rem;
+  font-size: 3.10rem;
 }
 
 .sub-title1, .sub-title2 {
   margin-top: -2rem;
   font-family: m-sketch-ii, sans-serif;
-  font-size: 1.35rem;
+  font-size: 1.15rem;
   text-transform: uppercase;
   color: rgb(137, 230, 235);
   margin-bottom: -0.25rem;
 }
 
-.sub-title1 a {
-  font-family: m-sketch, sans-serif;
-  color: magenta;
-  text-decoration: none;
+.links {
+  font-size: 1.6rem;
+  color: red;
 }
+
+.links a:hover {
+  color: rgb(255, 115, 107);
+  text-shadow: 0.10rem 0.10rem 0.80rem #ff0000,
+               -0.09rem -0.09rem 0.40rem #5174ff,
+               0 0 2rem #ff9900;
+  filter: brightness(250%);
+  transition: filter 0.5s;
+}
+
+.links a {
+  font-family: m-sketch, sans-serif;
+  text-decoration: none;
+  color: rgb(255, 115, 107);
+}
+
 
 .sub-title2 {
   margin-top: 1rem;
@@ -55,6 +65,7 @@ body {
 } 
 
 .featured {
+  border-right: solid var(--white-opacity50) 1px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,6 +113,7 @@ body {
   }
   .intro {
     width: 60%;
+    border-right: none;
   }
   .intro-header {
     margin-top: 12.5rem;
@@ -110,6 +122,7 @@ body {
   .featured {
     margin-top: 4rem;
     margin-bottom: 4rem;
+    border-right: none;
   }
   .featured-img {
     height: 25rem;
