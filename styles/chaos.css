@@ -32,7 +32,6 @@ html, body {
   text-shadow: 0.10rem 0.10rem 0.90rem #2200ff,
               -0.09rem -0.09rem 0 #ff0000,
               0.10rem -0.10rem 0.60rem #ff9900;
-  text-transform: uppercase;
   user-select: none;
 }
 
