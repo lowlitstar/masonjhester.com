@@ -100,7 +100,7 @@ html, body {
   word-spacing: 0.25rem;
 }
 
-@media (width <= 1300px) {
+@media (max-width: 1300px) {
   .featured-img {
     height: 40rem;
   }
@@ -112,7 +112,7 @@ html, body {
   }
 }
 
-@media (width <= 900px) {
+@media (max-width: 900px) {
   .page-container {
     display: flex;
     flex-direction: column;

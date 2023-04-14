@@ -65,7 +65,7 @@ html, body {
   height: 50rem;
 }
 
-@media (width <= 1300px) {
+@media (max-width: 1300px) {
  .piece-text {
     font-size: 0.8rem;
     word-spacing: 0.3rem;
@@ -75,7 +75,7 @@ html, body {
  }
 }
 
-@media (width <= 675px) {
+@media (max-width: 675px) {
   .page-container {
     cursor: none;
     display: flex;
