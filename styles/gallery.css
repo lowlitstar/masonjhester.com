@@ -56,7 +56,7 @@ section img {
 @media (max-width: 900px) {
   main {
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: scroll;
   }
   .gallery-wrapper {
     display: flex;
