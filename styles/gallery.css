@@ -57,10 +57,8 @@ section img {
   main {
     overflow-x: hidden;
     overflow-y: scroll;
-  }
-  .gallery-wrapper {
-    display: flex;
-    flex-direction: column;
+    width: 100vh;
+    height: 100vw;
   }
   gallery-image {
     width: 100%;
