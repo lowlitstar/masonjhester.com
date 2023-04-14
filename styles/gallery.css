@@ -55,7 +55,8 @@ section img {
 
 @media (max-width: 900px) {
   main {
-    transform: rotate(-90deg) translateX(-160vw);
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
   .gallery-wrapper {
     display: flex;
