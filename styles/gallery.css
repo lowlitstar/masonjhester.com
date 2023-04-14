@@ -60,7 +60,10 @@ section img {
     width: 100vh;
     height: 100vw;
   }
-
+  section {
+    height: auto;
+    margin-top: 3.5rem;
+  }
   section img {
     object-fit: contain;
   }
