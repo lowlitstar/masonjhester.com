@@ -74,7 +74,12 @@ body {
   cursor: pointer;
   width: 2rem;
 }
-
+.back-button a{
+  transition: color 0.25s ease;
+}
+.back-button a:hover {
+  color: white;
+}
 .back-button-text {
   font-size: 0.8rem;
   text-decoration: none;

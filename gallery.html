@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://api.fontshare.com/v2/css?f[]=excon@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/modern-normalize.css">
+    <link rel="stylesheet" href="/styles/gallery.css">
+    <link rel="stylesheet" href="/styles/utilities.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mason J. Hester</title>
+  </head>
+  <body>
+    <button class="back-button"><a class="back-button-text" href="/">back</a></button>
+    <main>
+      <div id="app">
+        <div class="gallery-container">
+          <div class="gallery-wrapper">
+            <section>
+              <gallery-image
+                v-for="image in images"
+                :key="image.id"
+                :id="image.id"
+                :src="image.src"
+                :alt="image.alt"
+              ></gallery-image>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="/scripts/scripts-gallery.js"></script>
+    <script type="module" src="/modules/main.js"></script>
+  </body>
+</html>

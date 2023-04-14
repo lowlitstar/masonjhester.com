@@ -1,0 +1,55 @@
+@import url('utilities.css');
+
+html, body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  position: fixed;
+  top: 0;
+  left: 0;
+/*  note vh and vw switched  */
+  width: 100vh; 
+  height: 100vw;
+/*    */
+  transform-origin: top left;
+  transform: rotate(-90deg) translateX(-100vh);
+  overflow-x: hidden;
+  overflow-y: scroll;
+/*   scroll-snap-type: y mandatory; */
+}
+
+.back-button {
+  z-index: 100;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    transform-origin: top left;
+    transform: rotate(90deg) translateY(-100vh);
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  margin: 0;
+}
+
+section img {
+  height: 80vh;
+  object-fit: scale-down;
+}
+
