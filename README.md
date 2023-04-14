@@ -1,5 +1,5 @@
 ## masonjhester.com
-my professional website, peek around if you want !!!
+my portfolio website, peek around if you want !!!
 
 ### Art Portfolio
 This public GitHub repository contains a collection of protected media, including but not limited to digital illustrations & paintings, sketches, custom typefaces, and images.
