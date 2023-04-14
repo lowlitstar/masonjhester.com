@@ -54,6 +54,9 @@ section img {
 }
 
 @media (max-width: 900px) {
+  main {
+    transform: rotate(-90deg) translateX(-160vw);
+  }
   .gallery-wrapper {
     display: flex;
     flex-direction: column;
