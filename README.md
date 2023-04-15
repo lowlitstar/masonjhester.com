@@ -1,6 +1,6 @@
 ## masonjhester.com
 ### Art Portfolio
-This public GitHub repository contains a collection of protected media, including but not limited to digital illustrations & paintings, sketches, custom typefaces, and images.
+This public GitHub repository contains a collection of protected media, including but not limited to digital illustrations, paintings, sketches, custom typefaces, and images.
 
 ### Copyright Notice
 Please be aware that all artworks and content within this repository are protected by copyright law. Unauthorized use, reproduction, or distribution is strictly prohibited.
