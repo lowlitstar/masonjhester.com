@@ -45,17 +45,27 @@ html, body {
 
 .intro-big {
   font-size: 3.55rem;
+  text-align: center;
 }
 
-.sub-title1 {
+.sub1 {
   margin-top: -2rem;
   font-family: msketch-iv, sans-serif;
-  font-size: 1.50rem;
+  font-size: 1.55rem;
   letter-spacing: 0.010rem;
   color: rgb(137, 230, 235);
 }
+.sub1-line-a {
+  font-size: 1.8rem;
+  color: white;
+  text-transform: uppercase;
+}
+.sub1-line-b {
+  margin-top: -1.5rem;
+  color: orange;
+}
 
-.sub-title2 {
+.sub2 {
   font-family: msketch-iv, sans-serif;
   font-size: 1.25rem;
   letter-spacing: 0.010rem;
