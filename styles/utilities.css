@@ -86,4 +86,13 @@ body {
   color: #ff5500;
 }
 
+@media (max-width: 900px) {
+  .back-button {
+    text-shadow: 0.10rem 0.10rem 0.5rem #030303,
+                  -0.10rem -0.10rem 0.15rem #030303,
+                  0.10rem -0.10rem 0.30rem #030303,
+                  -0.10rem 0.10rem 0.30rem #030303;
+  }
+}
+
 /* /backbutton /*/
