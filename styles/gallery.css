@@ -56,21 +56,23 @@ section img {
 @media (max-width: 900px) {
   body {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
   }
 
-  main {
-    overflow-x: hidden;
-    overflow-y: auto;
-    transform: rotate(-90deg) translateX(-248vw);
+  main { 
     position: fixed;
-    width: 100vh;
-    height: 100vw;
+    top: -1rem;
+    left: 0;
   }
   section {
-    height: 100vw;
+    height: 100vh;
   }
   section img {
-    margin-top: 40rem;
+    margin-top: 5rem;
     height: 50rem;
     object-fit: contain;
   }
