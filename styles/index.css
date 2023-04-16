@@ -24,6 +24,7 @@ html, body {
   margin-bottom: -0.35rem;
 }
 
+/* title card */
 .intro {
   display: flex;
   position: relative;
@@ -34,7 +35,6 @@ html, body {
   height: 100%;
   padding: 0 0.5rem;
 }
-
 .intro-header {
   font-size: 2.70rem;
   letter-spacing: 0.55rem;
@@ -42,12 +42,10 @@ html, body {
   margin-bottom: 2rem;
   line-height: 2.65rem;
 }
-
 .intro-big {
   font-size: 3.55rem;
   text-align: center;
 }
-
 .sub1 {
   margin-top: -2rem;
   font-family: msketch-iv, sans-serif;
@@ -64,7 +62,6 @@ html, body {
   margin-top: -1.5rem;
   color: orange;
 }
-
 .sub2 {
   font-family: msketch-iv, sans-serif;
   font-size: 1.25rem;
@@ -72,30 +69,31 @@ html, body {
   word-spacing: 0.005rem;
   color: rgb(255, 255, 255);
 }
-
-.links {
-  font-size: 1.25rem;
+.title-nav {
+  font-family: m-sketch, sans-serif;
+  font-size: 1.10rem;
   color: white;
   letter-spacing: 0.05rem;
-  word-spacing: 0.010rem;
+  word-spacing: 0.25rem;
 }
-
-.links a:hover {
+.title-nav a:hover {
   color: rgb(255, 115, 107);
-  text-shadow: 0.10rem 0.10rem 0.80rem #ff0000,
+  text-shadow: 0.10rem 0.10rem 0.80rem #fff2db,
                -0.09rem -0.09rem 0.40rem #5174ff,
                0 0 2rem #ff9900;
   filter: brightness(250%);
   transition: filter 0.5s;
 }
-
-.links a {
-  font-family: m-sketch, sans-serif;
-  font-size: 1.05rem;
+.title-nav a {
   text-transform: uppercase;
   text-decoration: none;
   color: rgb(255, 115, 107);
 }
+.title-nav .gallery-link {
+  color: rgb(137, 230, 235);
+}
+/* end title card */
+
 
 .featured {
   border-right: solid white 2px;
