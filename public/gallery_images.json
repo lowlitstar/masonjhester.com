@@ -145,7 +145,31 @@
 ,
   {
     "id": 25,
+    "src": "/gallery/wave-feb-23.jpg",
+    "alt": "Waves, February 2023"
+  }
+,
+  {
+    "id": 26,
     "src": "/gallery/flames-jan-23.jpg",
     "alt": "Flames, January 2023"
+  }
+,
+  {
+    "id": 27,
+    "src": "/gallery/provenence-mar-23.jpg",
+    "alt": "Provenance, March 2023"
+  }
+,
+  {
+    "id": 28,
+    "src": "/gallery/governance-mar-23.jpg",
+    "alt": "Governance, March 2023"
+  }
+,
+  {
+    "id": 29,
+    "src": "/gallery/chaos-apr-23.jpg",
+    "alt": "chaos, April 2023"
   }
 ]

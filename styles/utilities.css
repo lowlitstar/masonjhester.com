@@ -74,7 +74,7 @@ body {
   cursor: pointer;
   width: 2rem;
 }
-.back-button a{
+.back-button a {
   transition: color 0.25s ease;
 }
 .back-button a:hover {

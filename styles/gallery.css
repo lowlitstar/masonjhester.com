@@ -51,6 +51,7 @@ section {
 section img {
   height: 80vh;
   object-fit: cover;
+  padding: 0 0.50rem;
 }
 
 @media (max-width: 900px) {
