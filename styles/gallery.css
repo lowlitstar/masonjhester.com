@@ -54,18 +54,24 @@ section img {
 }
 
 @media (max-width: 900px) {
+  body {
+    position: relative;
+  }
+
   main {
     overflow-x: hidden;
     overflow-y: auto;
     transform: rotate(-90deg) translateX(-248vw);
+    position: fixed;
     width: 100vh;
     height: 100vw;
   }
   section {
-    height: auto;
-    margin-top: 3.5rem;
+    height: 100vw;
   }
   section img {
+    margin-top: 40rem;
+    height: 50rem;
     object-fit: contain;
   }
 }
