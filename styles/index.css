@@ -32,6 +32,7 @@ html, body {
   justify-content: center;
   width: 17.5%;
   min-width: 19rem;
+  max-width: 19rem;
   height: 100%;
   padding: 0 0.5rem;
 }
