@@ -57,6 +57,7 @@ section img {
   main {
     overflow-x: hidden;
     overflow-y: auto;
+    transform: rotate(-90deg) translateX(-248vw);
     width: 100vh;
     height: 100vw;
   }
