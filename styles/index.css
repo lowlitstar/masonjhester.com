@@ -37,14 +37,14 @@ html, body {
   padding: 0 0.5rem;
 }
 .intro-header {
-  font-size: 2.70rem;
-  letter-spacing: 0.55rem;
+  font-size: 3.5rem;
+  letter-spacing: 0.15rem;
   word-spacing: -0.10rem;
-  margin-bottom: 2rem;
-  line-height: 2.65rem;
+  margin-bottom: 1.8rem;
+  line-height: 3.25rem;
 }
 .intro-big {
-  font-size: 3.55rem;
+  font-size: 4.40rem;
   text-align: center;
 }
 .sub1 {
