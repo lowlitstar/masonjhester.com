@@ -199,10 +199,11 @@ html, body {
   .intro-header {
     margin-bottom: 0.25rem;
 
-    font-size: 1.75rem;
+    text-align: left;
+    font-size: 1.85rem;
   }
   .landing {
-    transform: scale(0.85);
+    transform: scale(0.95);
     width: 100%;
     position: relative;
     margin-top: 5rem;
