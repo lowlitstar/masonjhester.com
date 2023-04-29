@@ -5,7 +5,7 @@
 div {
   border: 1px dashed red;
 } 
-*/
+
 /* to be removed later */
 
 html, body {
@@ -14,6 +14,17 @@ html, body {
   line-height: 1.15rem;
 }
 
+.construction {
+  color: rgb(225, 154, 128);
+  font-size: 1.25rem;
+}
+.page-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
 
 /* title card */
 .landing { 
@@ -21,7 +32,6 @@ html, body {
   height: 100%;
   position: absolute;
   left: 0;
-  top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,20 +53,19 @@ html, body {
   margin-bottom: 0.8rem;
 
   font-family: excon, sans-serif;
-  font-size: 3rem;
+  font-size: 2.9rem;
     word-spacing: 0.05rem;
     letter-spacing: 0.05rem;
     line-height: 3.25rem;
 }
 .sub1, .sub2 {
-  padding-left: 1.5rem;
 
   font-size: 2rem;
     letter-spacing: 0.010rem;
   text-align: left;
 }
 .sub1 {
-  margin-bottom: -3rem;
+  margin-top: -2rem;
 
   color: white;
   font-size: 1.5rem;
@@ -64,40 +73,129 @@ html, body {
     word-spacing: 0.25rem;
     text-transform: uppercase;
 }
-.sub2 {
-  margin-top: 0.25rem;
 
-  font-size: 1.80rem;
+
+@keyframes flicker {
+  20% {
+    backdrop-filter: brightness(150%),
+    blur(0.5rem);
+    text-shadow: 0.10rem 0.10rem 0.80rem #fff2dba2,
+    -0.09rem -0.09rem 0.40rem #5174ff,
+    0 0 2rem #ff9900;
+  }
+  40% {
+    backdrop-filter: brightness(150%),
+    blur(0.5rem);
+    text-shadow: 0.10rem 0.10rem 0.80rem #fff2db9e,
+    -0.09rem -0.09rem 0.40rem #5174ff,
+    0 0 2rem #ff9900;
+  }
+  60% {
+    backdrop-filter: brightness(150%),
+    blur(0.5rem);
+    text-shadow: 0.10rem 0.10rem 0.90rem #fff2db,
+    -0.09rem -0.09rem 0.40rem #5174ff,
+    0 0 2rem #ff9900;
+  }
+  80% {
+    backdrop-filter: brightness(100%),
+    blur(0.5rem);
+    text-shadow: 0.10rem 0.10rem 0.90rem #fff2db,
+    -0.09rem -0.09rem 0.40rem #5174ff,
+    0 0 2rem #ff9900;
+  }
+  100% {
+    backdrop-filter: brightness(100%),
+    blur(0.5rem);
+    text-shadow: 0.10rem 0.10rem 0.90rem #fff2db8d,
+    -0.09rem -0.09rem 0.40rem #5174ff,
+    0 0 2rem #ff9900;
+  }
+}
+@keyframes flicker2 {
+  20% {
+    filter: brightness(130%);
+  }
+  40% {
+    filter: brightness(115%);
+  }
+  60% {
+    filter: brightness(100%);
+  }
+  80% {
+    filter: brightness(110%);
+  }
+  100% {
+    filter: brightness(115%);
+  }
 }
 
 
-.title-nav {
-  padding-left: 1.5rem;
+
+.title-nav, .main-nav {
+  margin-bottom: 2rem;
+  animation: flicker2 5s infinite linear;
 
   color: white;
   font-size: 1.5rem;
     line-height: 1.75rem;
     text-align: left;
 }
-.title-nav a {
-  color: rgb(255, 149, 0);
+.title-nav a, .main-nav a {
   text-transform: uppercase;
   text-decoration: none;
   text-shadow: 0 0 1.15rem #ffffffa7;
+  filter: brightness(200%), saturate(200%);
+}
+.main-nav a {
+  text-shadow: 0.10rem 0.10rem 1rem #fff2db,
+  -0.09rem -0.09rem 0.40rem #5174ff,
 }
 .title-nav a:hover {
+  animation: flicker 3s infinite linear;
+  filter: brightness(3000%);
   text-shadow: 0.10rem 0.10rem 0.80rem #fff2db,
                -0.09rem -0.09rem 0.40rem #5174ff,
                0 0 2rem #ff9900;
-  filter: brightness(250%);
-  transition: filter 0.5s;
+  color: white;
+  transition: filter 1s;
 }
-.title-nav .gallery-link {
-  color: rgb(105, 205, 255);
+.main-nav a:hover {
+  animation: flicker 3s infinite linear;
+  filter: brightness(3000%);
+  color: white;
+  text-shadow: 0.10rem 0.10rem 0.80rem #fff2db,
+               -0.09rem -0.09rem 0.40rem #5174ff,
+               0 0 2rem #ff9900;
+  transition: filter 10s;
 }
-.title-nav .ko-fi {
-  color: rgb(254, 102, 115);
+
+.art-nav, .design-nav, .web-design-nav {
+  font-style: italic;
+  color: rgb(255, 255, 255);
 }
+.gallery-link {
+  color: rgb(115, 239, 251);
+  text-shadow: 0.10rem 0.10rem 0.80rem #fff2db,
+  -0.09rem -0.09rem 0.40rem #5174ff,
+  0 0 2rem #ff9900;
+}
+.ko-fi-link{
+  color: rgb(0, 162, 255);
+  text-shadow: 0.10rem 0.10rem 0.80rem #fff2db,
+  -0.09rem -0.09rem 0.40rem #5174ff,
+  0 0 2rem #ff9900;
+}
+.instagram, .github, .email {
+  color: rgb(255, 149, 0);
+  font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-align: left;
+    text-shadow: 0.10rem 0.10rem 0.80rem #fff2db,
+    -0.09rem -0.09rem 0.40rem #5174ff,
+    0 0 2rem #ff9900;
+}
+
 .hr {
   width: 100%;
   position: relative;
@@ -109,8 +207,6 @@ html, body {
   color: rgb(255, 115, 107);
 }
 .sub3 {
-  padding-left: 1.5rem;
-
   font-size: 1.30rem;
     text-align: left;
     letter-spacing: 0.010rem;
@@ -120,11 +216,10 @@ html, body {
   
   
 .featured {
-  width: 50%;
-  height: 100%;
   position: absolute;
-  right: 0;
   top: 0;
+  bottom: 0;
+  right: 7.5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -210,6 +305,7 @@ html, body {
     margin-left: -0.5rem;
   }
   .featured {
+    right: 0;
     width: 100%;
     position: relative;
     margin-top: 2.5rem;
@@ -224,8 +320,5 @@ html, body {
   .sub1, .sub2, .sub3, .title-nav {
     padding-left: 0;
     font-size: 1.25rem;
-  }
-  .sub1 {
-    margin-bottom: -2.5rem;
   }
 }
