@@ -65,12 +65,11 @@ html, body {
   text-align: left;
 }
 .sub1 {
-  margin-top: -2rem;
+  margin-top: -1.90rem;
 
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
     letter-spacing: 0.15rem;
-    word-spacing: 0.25rem;
     text-transform: uppercase;
 }
 
@@ -317,7 +316,11 @@ html, body {
   .featured-text, .featured-bottom-text {
     font-size: 0.75rem;
   }
-  .sub1, .sub2, .sub3, .title-nav {
+  .sub1 {
+    padding-left: 0;
+    font-size: 1rem
+  }
+  .sub2, .sub3, .title-nav {
     padding-left: 0;
     font-size: 1.25rem;
   }
