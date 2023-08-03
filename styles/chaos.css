@@ -6,7 +6,6 @@ html, body {
   cursor: crosshair;
 }
 .page-container {
-  height: 99vh;
   display: flex;
   flex-direction: row;
   align-items: center;
