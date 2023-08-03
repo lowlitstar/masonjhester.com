@@ -12,6 +12,7 @@ html, body {
   height: 100%;
   width: 100%;
   line-height: 1.15rem;
+  overflow : hidden;
 }
 
 .construction {
@@ -228,7 +229,7 @@ html, body {
 }
 .featured-img {
   height: 45rem;
-  margin: 2rem;
+  margin: 2rem 0;
 }
 .featured-text {
   position: absolute;
