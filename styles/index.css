@@ -227,7 +227,8 @@ html, body {
   position: relative;
 }
 .featured-img {
-  height: 50rem;
+  height: 45rem;
+  margin: 2rem;
 }
 .featured-text {
   position: absolute;
