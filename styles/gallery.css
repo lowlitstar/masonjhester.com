@@ -69,5 +69,6 @@ section img {
   }
   section img {
     height: 100vh;
+    margin-bottom: -21rem;
   }
 }
