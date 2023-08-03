@@ -5,18 +5,23 @@ html, body {
   width: 100%;
   cursor: crosshair;
 }
+
 .page-container {
+  height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: row;
   align-items: center;
+  justify-content: center;
   overflow: hidden;
 }
+
 .piece {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   user-select: none;
 }
+
 .piece-wrapper {
   width: 100%;
   height: 100%;
@@ -25,69 +30,62 @@ html, body {
   justify-content: center;
   padding: 3rem;
 }
+
 .piece-text {
   padding-left: 5rem;
   user-select: none;
-  
   font-family: m-sketch-ii, sans-serif;
-    font-size: 1rem;
-    word-spacing: 0.2rem;
-    letter-spacing: 0.08rem;
-    text-shadow: 0.10rem 0.10rem 0.90rem #2200ff,
-                -0.09rem -0.09rem 0 #ff0000,
-                0.10rem -0.10rem 0.60rem #ff9900;
+  font-size: 1rem;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.08rem;
+  text-shadow: 0.10rem 0.10rem 0.90rem #2200ff, -0.09rem -0.09rem 0 #ff0000, 0.10rem -0.10rem 0.60rem #ff9900;
 }
+
 .line span {
   transition: text-shadow 0.5s ease-in-out, color 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
+
 .line span:hover {
   color: rgb(255, 223, 223);
-  text-shadow: 0.10rem 0.10rem 0.80rem #00ddff,
-               -0.09rem -0.09rem 0.40rem #a6b7ff,
-               0 0 2rem #ffffff;
+  text-shadow: 0.10rem 0.10rem 0.80rem #00ddff, -0.09rem -0.09rem 0.40rem #a6b7ff, 0 0 2rem #ffffff;
   filter: brightness(150%), saturate(150%);
 }
+
 .line span:active {
-  cursor:cell;
+  cursor: cell;
   color: white;
 }
+
 .glow {
   color: rgb(230, 239, 255);
-  text-shadow: 0.10rem 0.10rem 0.80rem #ffebeb,
-               -0.09rem -0.09rem 0.50rem #0010bd,
-               0 0 2rem #07ffea;
+  text-shadow: 0.10rem 0.10rem 0.80rem #ffebeb, -0.09rem -0.09rem 0.50rem #0010bd, 0 0 2rem #07ffea;
   filter: brightness(150%), saturate(150%);
 }
+
 .poem-indent {
   margin-left: 1rem;
 }
+
 .chaos {
-  height: 35rem;
+  max-height: 35rem;
+  max-width: 100%;
 }
 
 @media (min-width: 1000px) {
-.page-container {
-  height: 99vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.chaos {
-  height: 50rem;
-  margin: auto;
-  margin-bottom: 2rem;
-}
-.piece-text {
-  font-size: 1.2rem;
-}
+  .page-container {
+    height: 99vw;
+  }
+  .chaos {
+    height: 50rem;
+  }
+  .piece-text {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 1000px) {
   .page-container {
     height: 99vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .piece-wrapper {
     position: absolute;
@@ -100,19 +98,16 @@ html, body {
   .piece-text {
     margin-bottom: 10rem;
     padding-left: 0;
-
     font-size: 0.7rem;
-      word-spacing: 0.02rem;
-      text-shadow: 0.02rem 0.02rem 0.90rem #2200ff,
-                  -0.02rem -0.02rem 0 #ff0000,
-                  0.02rem -0.02rem 0.60rem #ff9900
+    word-spacing: 0.02rem;
+    text-shadow: 0.02rem 0.02rem 0.90rem #2200ff, -0.02rem -0.02rem 0 #ff0000, 0.02rem -0.02rem 0.60rem #ff9900;
   }
   .poem-indent {
     margin-left: 0.7rem;
   }
   .chaos {
     height: 50%;
-    width: 50%;
+    width: 80%;
     margin: auto;
     margin-bottom: 2rem;
   }
