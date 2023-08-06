@@ -18,7 +18,6 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  user-select: none;
 }
 
 .piece-wrapper {
@@ -30,7 +29,6 @@ html, body {
 
 .piece-text {
   padding-left: 5rem;
-  user-select: none;
   font-family: m-sketch-ii, sans-serif;
   font-size: 1rem;
   word-spacing: 0.2rem;
@@ -66,6 +64,27 @@ html, body {
 .chaos {
   max-height: 35rem;
   max-width: 100%;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-image {
+  max-width: 95%;
+  max-height: 95%;
+}
+
+.hidden {
+  display: none;
 }
 
 @media (min-width: 1000px) {
