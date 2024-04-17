@@ -73,6 +73,21 @@ html, body {
     letter-spacing: 0.15rem;
     text-transform: uppercase;
 }
+.sub3  {
+  font-family: excon, sans-serif;
+  font-size: xx-small;
+    letter-spacing: 0.010rem;
+    word-spacing: 0.05rem;
+
+  color: white;
+  text-align: left;
+
+  margin-top: 1.5rem;
+
+  text-shadow: 0.10rem 0.10rem 0.80rem #fff2db,
+  -0.09rem -0.09rem 0.40rem #5174ff,
+  0 0 2rem #ff9900;
+}
 
 
 @keyframes flicker {
