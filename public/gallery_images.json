@@ -202,13 +202,42 @@
     "src": "/gallery/creation-aug-23.jpg",
     "alt": "creation, August 2023"
   }
-  ,
+,
   {
     "id": 35,
     "src": "/gallery/rift-sep-23.png",
     "alt": "rift, September 2023"
   }
-
+,
+  {
+    "id": 36,
+    "src": "/gallery/death-oct-23.png",
+    "alt": "death, October 2023"
+  }
+,
+  {
+    "id": 37,
+    "src": "/gallery/radiance-jan-24.png",
+    "alt": "radiance, January 2024"
+  }
+,
+  {
+    "id": 38,
+    "src": "/gallery/compendium2-feb-24.png",
+    "alt": "compendium pg2, February 2024"
+  }
+,
+  {
+    "id": 39,
+    "src": "/gallery/sanctity-mar-24.png",
+    "alt": "sanctity, March 2024"
+  }
+,
+  {
+    "id": 40,
+    "src": "https://www.youtube.com/watch?v=sBARea706X8",
+    "alt": "cherry lake, song, April 2024"
+  }
 
 
 ]
